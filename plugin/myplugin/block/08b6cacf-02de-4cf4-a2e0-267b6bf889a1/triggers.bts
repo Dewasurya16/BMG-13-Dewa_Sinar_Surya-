@@ -1,0 +1,9 @@
+BLOCK_TOUCH {
+	GameOverToPlayer(entity = $obj1)
+	GameOver()
+}
+
+BLOCK_IN {
+	GameOverToPlayer()
+	GameOver()
+}

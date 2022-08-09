@@ -1,0 +1,53 @@
+{
+  "data": {
+    "canJoinMidway": false,
+    "fixed_viewPos": {
+      "pos": {
+        "__OBJ_TYPE": "Vector3i"
+      }
+    },
+    "initPos": {
+      "map": "map001",
+      "pos": {
+        "x": -3.0,
+        "y": 1.0,
+        "z": 2.0
+      }
+    },
+    "nowTime": {
+      "h": 7,
+      "m": 40
+    },
+    "player_range": {
+      "max": 6,
+      "min": 1
+    },
+    "startPos": {
+      "map": "map001",
+      "pos": {
+        "x": -2.0,
+        "y": 1.0,
+        "z": 2.0
+      }
+    },
+    "unlimitedPlayTime": true,
+    "waitGoTime": {
+      "value": 100
+    },
+    "waitPlayerTime": {
+      "value": 100
+    },
+    "waitStartTime": {
+      "value": 100
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "4b04bde1da35697f8a0bde47708560ae",
+      "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
+      "triggers.bts": "",
+      "triggers_client.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "data": {
+    "name": {
+      "value": "block_08b6cacf-02de-4cf4-a2e0-267b6bf889a1"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/diamond_block.png",
+        "selector": "asset/Texture/Block/diamond_block.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/diamond_block.png",
+        "selector": "asset/Texture/Block/diamond_block.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/diamond_block.png",
+        "selector": "asset/Texture/Block/diamond_block.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/diamond_block.png",
+        "selector": "asset/Texture/Block/diamond_block.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/diamond_block.png",
+        "selector": "asset/Texture/Block/diamond_block.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/diamond_block.png",
+        "selector": "asset/Texture/Block/diamond_block.png"
+      }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_GameOverToPlayer",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "8a42eab2-1b9a-4d5a-813a-19c8b09b1960"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "1d995afd-50f4-447c-90e8-989e6290032b"
+              },
+              "pos": {
+                "x": 607,
+                "y": 389
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "8a42eab2-1b9a-4d5a-813a-19c8b09b1960"
+              },
+              "pos": {
+                "x": 925,
+                "y": 469
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GameOver",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params"
+                }
+              ],
+              "id": {
+                "value": "7c1e51ec-1413-4aa3-9439-da5fc1399c2b"
+              },
+              "pos": {
+                "x": 741,
+                "y": 299
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "4a669722-ef06-4f2c-aa94-b5cfac7f8143"
+            },
+            "type": "Trigger_BlockTouch"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "1d995afd-50f4-447c-90e8-989e6290032b"
+                  },
+                  {
+                    "action": "7c1e51ec-1413-4aa3-9439-da5fc1399c2b"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "a8224b03-bd9a-4866-bbfe-c3a103eae48c"
+            }
+          },
+          "type": "Trigger_BlockTouch"
+        },
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_GameOverToPlayer",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "4773858d-8e68-4f07-ab61-0d340da131f0"
+              },
+              "pos": {
+                "x": 729,
+                "y": 309
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GameOver",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params"
+                }
+              ],
+              "id": {
+                "value": "8a63d8cb-de2e-46d0-b141-bcca795d0e0f"
+              },
+              "pos": {
+                "x": 624,
+                "y": 421
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "21caf733-f6d5-456d-bd69-8561396f246b"
+            },
+            "type": "Trigger_BlockIn"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "4773858d-8e68-4f07-ab61-0d340da131f0"
+                  },
+                  {
+                    "action": "8a63d8cb-de2e-46d0-b141-bcca795d0e0f"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "cd911cf7-ce54-46ca-bfca-fb5f2edb0312"
+            }
+          },
+          "type": "Trigger_BlockIn"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "09be103cd523a183c672a10e0e214aab",
+      "triggers.bts": "e34ea5ac7b34327327a53bd85b215937"
+    },
+    "VERSION": "0.22"
+  }
+}

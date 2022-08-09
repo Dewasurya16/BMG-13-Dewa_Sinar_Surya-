@@ -1,0 +1,53 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_back.png"
+        },
+        "bottom": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_bottom.png"
+        },
+        "front": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_front.png"
+        },
+        "left": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_left.png"
+        },
+        "right": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_right.png"
+        },
+        "top": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_top.png"
+        }
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/player1",
+        "id": "8751418435870195713",
+        "name": "player1",
+        "position": {
+          "x": -3.9494466781616,
+          "y": 0.94999957084656,
+          "z": 12.459877967834
+        }
+      }
+    ],
+    "name": {
+      "value": "map_map001"
+    },
+    "touch_pos": {
+      "up": 600
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "DataSet": [],
+      "setting.json": "669892f00de360b274e43021b92690d8"
+    },
+    "VERSION": "0.22"
+  }
+}

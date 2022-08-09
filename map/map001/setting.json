@@ -1,0 +1,48 @@
+{
+  "blinn": 0,
+  "canBreak": true,
+  "hdr": 0,
+  "hideCloud": true,
+  "scene": [
+    {
+      "class": "Entity",
+      "config": "myplugin/player1",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8751418435870195713",
+        "name": "player1",
+        "needSync": "true",
+        "position": "x:-3.9494466781616 y:0.94999957084656 z:12.459877967834",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    }
+  ],
+  "skyBox": [
+    {
+      "texture": [
+        "@asset/Texture/SkyBox/Common2/Sky03_right.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_left.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_top.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_bottom.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_back.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_front.png"
+      ]
+    }
+  ],
+  "skyBoxMode": "static_display",
+  "skyBoxRotate": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "skyBoxTexPixFmt": "RGBA8",
+  "skyBoxTexSize": 512,
+  "touchPosY": {
+    "touchdownPosY": -30.0,
+    "touchupPosY": 600
+  }
+}

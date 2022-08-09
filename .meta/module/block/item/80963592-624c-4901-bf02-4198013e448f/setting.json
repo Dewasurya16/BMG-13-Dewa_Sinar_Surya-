@@ -1,0 +1,41 @@
+{
+  "data": {
+    "name": {
+      "value": "block_80963592-624c-4901-bf02-4198013e448f"
+    },
+    "spring": 3,
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/brick.png",
+        "selector": "asset/Texture/Block/brick.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/brick.png",
+        "selector": "asset/Texture/Block/brick.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/brick.png",
+        "selector": "asset/Texture/Block/brick.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/brick.png",
+        "selector": "asset/Texture/Block/brick.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/brick.png",
+        "selector": "asset/Texture/Block/brick.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/brick.png",
+        "selector": "asset/Texture/Block/brick.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "024b61c02165e18c876db238e293ad2f",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}
